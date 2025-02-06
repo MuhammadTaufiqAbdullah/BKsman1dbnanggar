@@ -1,0 +1,112 @@
+body {
+font-family: 'Roboto Condensed', sans-serif;
+}
+h1
+{
+text-align: left;
+background-color: #FEFFED;
+height: 0px;
+color: rgb(95, 89, 89);
+margin: 0 0 -29px 0;
+padding-top: 14px;
+border-radius: 10px 10px 0 0;
+font-size: 35px;
+}
+.main {
+position: absolute;
+top: 500px;
+left: 0px;
+width: 450px;
+height:230px;
+border: 2px solid gray;
+border-radius: 10px;
+}
+.main label{
+color: rgba(0, 0, 0, 0.71);
+margin-left: 0px;
+}
+#image_preview{
+position: absolute;
+font-size: 30px;
+top: 625px;
+left: 500px;
+width: 150px;
+height: 150px;
+text-align: center;
+line-height: 180px;
+font-weight: bold;
+color: #C0C0C0;
+background-color:#CC00FF;
+overflow: auto;
+}
+#selectImage{
+padding: 19px 21px 14px 15px;
+bottom: 0px;
+width: 300px;
+background-color:#33CCCC;
+border-radius: 10px;
+margin-top: 0px;
+margin-left: 0px;
+}
+.submit{
+font-size: 16px;
+background: linear-gradient(#ffbc00 5%, #ffdd7f 100%);
+border: 1px solid #e5a900;
+color: #4E4D4B;
+font-weight: bold;
+cursor: pointer;
+width: 300px;
+border-radius: 5px;
+padding: 10px 0;
+outline: none;
+margin-top: 10px;
+margin-left: 0px;
+}
+.submit:hover{
+background: linear-gradient(#ffdd7f 5%, #ffbc00 100%);
+}
+#file {
+color: red;
+padding: 5px;
+border: 5px solid #8BF1B0;
+background-color: #8BF1B0;
+margin-top: 0px;
+border-radius: 5px;
+box-shadow: 0 0 15px #626F7E;
+margin-left: 0px;
+width: 280px;
+}
+#message{
+position:absolute;
+top: 537px;
+left: 660px;
+
+}
+#success
+{
+color:green;
+}
+#invalid
+{
+color:red;
+}
+#line
+{
+margin-top: 100px;
+}
+#error
+{
+color:red;
+}
+#error_message
+{
+color:blue;
+}
+#loading
+{
+display:none;
+position:absolute;
+top: 500px;
+left: 910px;
+font-size:25px;
+}
